@@ -40,9 +40,6 @@
       &nbsp;&nbsp;
       <br/><br/>
       <button type="button" onClick="getAccount2()">Create a mainnet account (do it offline)</button>
-      <br/><br/>
-      <button type="button" onClick="getAccountsFromSeeds()">Or get account from seed:
-      </button>
       <br/>
       <textarea id="seeds" cols="34" rows= "1"></textarea>
       <br/><br/>
@@ -71,40 +68,11 @@
                         <br>
                       </td>
                     </tr>
-                    <tr>
-                      <td align="right">
-                        XRP Balance
-                      </td>
-                      <td>
-                        <input type="text" id="standbyBalanceField" size="40"></input>
-                        <br>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="right">
-                        Amount
-                      </td>
-                      <td>
-                        <input type="text" id="standbyAmountField" size="40"></input>
-                        <br>
-                      </td>
-                    </tr>
-                   <tr>
-                      <td align="right">
-                        Destination
-                      </td>
-                      <td>
-                        <input type="text" id="standbyDestinationField" size="40"></input>
-                        <br>
-                      </td>
-                    </tr>
                   </table>
                   <br/>
                   <button type="button" onClick="reload()">Clear fields</button>
-                  <br/>
-                  <button type="button" onClick="sendXRP()">Send XRP</button>
                   <p align="right">
-                    <textarea id="standbyResultField" cols="80" rows="20" ></textarea>
+                    <textarea id="standbyResultField" cols="80" rows="10" ></textarea>
                   </p>
                 </td>
               </tr>
