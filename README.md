@@ -1,6 +1,6 @@
 # CreateXRPwalletKeypairOffline
 
-A super simple javascript pieace of code to create OFFLINE a key pair for an XRP wallet.
+A javascript pieace of code to create OFFLINE a keypair for an XRP wallet.
 
 It creates a key pair using ed25519 algorithm.
 
