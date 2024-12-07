@@ -1,4 +1,4 @@
-# createXRPwalletKeypairOffline
+# CreateXRPwalletKeypairOffline
 
 A super simple javascript pieace of code to create OFFLINE a key pair for an XRP wallet.
 
