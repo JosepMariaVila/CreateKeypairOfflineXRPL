@@ -1,7 +1,7 @@
-# supersimpleXRPwallet
-A super simple javascript XRP wallet to create new accounts offline, check balances and send XRP.
+# createXRPwalletKeypairOffline
+A super simple javascript pieace of code to create a key pair for an XRP wallet completely OFFLINE.
 
-It uses a seed to derive the account address and sign transactions, it uses ed25519 algorithm, so just use it with seeds created with ed25519 algo.
+It creates a key pair using ed25519 algorithm
 
 The ed25519 algorithm: seeds have 31 characters (sKdNVBLAmVjgcDrEfDSzTSBqsagHMEd).
 
@@ -14,7 +14,5 @@ Open the HTML file in your browser.
 It works for the XRPL Mainet.
 
 It allows to create a Mainnet account (which has to be activated later with XRP). Do it offline, it's purely mathematical.
-
-It allows to check balances and send XRP.
 
 You can try it here: https://skunk-proper-smoothly.ngrok-free.app/tools/supersimpleXRPwallet/xrpwallet
