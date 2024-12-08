@@ -18,4 +18,5 @@ It allows to create a keypair mainnet account (which has to be activated later w
 
 Once you have created it offline that wallet can receive XRP. Warning: if you use this private key to perform a transaction ONLINE, like sending XRP, using a computer which is connected to the internet, then the private key will become compromised so you should create again a new wallet offline and send your XRP there. These wallets are secure just if you don't perform transactions online with the computer where the keypair has been generated.
 
-You can try it here: https://skunk-proper-smoothly.ngrok-free.app/tools/createKeypairXRPwalletOffline/xrpwallet
+Demo online just for educational purposes here: 
+https://skunk-proper-smoothly.ngrok-free.app/tools/createKeypairXRPwalletOffline/xrpwallet
