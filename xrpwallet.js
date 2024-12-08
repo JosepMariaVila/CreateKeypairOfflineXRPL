@@ -1,6 +1,10 @@
 // ******************************************************
 // ************* Get the Preferred Network **************
 // ******************************************************
+// It's not necesssary to generate the keypair
+// I put it here and in the visual interface in order to 
+// people that doesn't know exactly what's going one 
+// understands that the keypair is valid in the XRPL.
 
 function getNet() {
   let net;
@@ -12,6 +16,10 @@ function getNet() {
 // *******************************************************
 // ******************** Get Algorithm ********************
 // *******************************************************
+// It's not necesssary to generate the keypair. I put it here 
+// and in the visual interface in order to people that doesn't 
+// know exactly what's going one understands that the keypair 
+// is created using the ed25519 elliptic curve.
 
 function getAlgo() {
   let algo;
