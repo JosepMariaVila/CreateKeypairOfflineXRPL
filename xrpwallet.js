@@ -33,10 +33,6 @@ async function getAccount2() {
 
   standbyAccountField.value = wallet.address;
   standbySeedField.value = wallet.seed;
-  seeds.value = standbySeedField.value;
-  standbyBalanceField.value = "";
-  standbyAmountField.value = "";
-  standbyDestinationField.value = "";
 } // End of getAccount2()
 
 
